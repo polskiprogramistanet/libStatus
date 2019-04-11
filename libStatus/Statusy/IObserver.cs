@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace libStatus
+namespace libStatus.Statusy
 {
-    public class Class1
+    interface IObserver
     {
+        void Update(EnumStatus status);
     }
 }
